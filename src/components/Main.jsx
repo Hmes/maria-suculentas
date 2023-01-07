@@ -1,7 +1,9 @@
+import { ProductForm } from "./ProductForm"
+
 export function Main() {
   return (
     <main>
-      Contenido
+      <ProductForm/>
     </main>
   )
 }
