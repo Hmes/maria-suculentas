@@ -8,14 +8,24 @@
   src: local('JetBrains-bold'), url(./assets/fonts/JetBrainsMono-Bold.ttf);
 }
 
+:root {
+  --color1: #283739;
+	--color2: #2c5d63; 
+	--color3: #a2c11c;
+  --color4: #e0e0e0;
+}
+
+#header, #footer {
+  background-color: var(--color1) !important;
+}
+
 body {
-  font-family: 'JetBrains-regular';
+  font-family: 'JetBrains-regular' !important;
 }
 
 header, footer {
   padding-top: 15px;
   padding-left: 15px;
-  background-color: blue;
   height: 45px;
   color: white;
 }
@@ -27,5 +37,24 @@ header, footer {
 
 main {
   min-height: 400px;
-  font-family: 'JetBrains-bold';
+}
+
+#main {
+  position: fixed;
+  max-height: calc(100% - 120px);
+  overflow: auto;
+  width: 100%;
+}
+
+#home-logo {
+  max-width: 500px;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
