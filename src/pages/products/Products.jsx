@@ -1,8 +1,8 @@
-// https://www.hogarmania.com/salud/salud-familiar/remedios-naturales/plantas-relajantes-para-bienestar-emocional-12913.html
+ // https://www.hogarmania.com/salud/salud-familiar/remedios-naturales/plantas-relajantes-para-bienestar-emocional-12913.html
 import { Col, Container, Row } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 import { ModalMS } from '../../components/ModalMS'
-import defaultImg from '../../assets/imgs/default.jpg'
+import defaultImg from '../../assets/imgs/default.gif'
 import { useState } from 'react'
 
 export function Products() {
@@ -46,7 +46,7 @@ export function Products() {
         <Row>
           {
             products.map((plant, i) => {
-              return <Col key={i}>
+              return <Col key={i} className='mb-4'>
                 <Card style={{ width: '18rem' }}>
                   <Card.Img variant="top" src={plant.image} />
                   <Card.Body>
