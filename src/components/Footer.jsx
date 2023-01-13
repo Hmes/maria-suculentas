@@ -3,16 +3,16 @@ export function Footer() {
     <footer id="footer">
       <p className="text-center">
         <a href="#">
-          <i class="fa-brands fa-facebook"></i> mariasuculentas
+          <i className="fa-brands fa-facebook"></i> mariasuculentas
         </a>
         <a href="#">
-          <i class="fa-brands fa-twitter"></i> mariasuculentas
+          <i className="fa-brands fa-twitter"></i> mariasuculentas
         </a>
         <a href="#">
-          <i class="fa-brands fa-instagram"></i> mariasuculentas
+          <i className="fa-brands fa-instagram"></i> mariasuculentas
         </a>
         <a href="#">
-          <i class="fa-brands fa-whatsapp"></i> 3123454567
+          <i className="fa-brands fa-whatsapp"></i> 3123454567
         </a>
       </p>
     </footer>
